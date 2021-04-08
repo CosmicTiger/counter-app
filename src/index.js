@@ -1,12 +1,12 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import App from './App'
+import CounterApp from './CounterApp'
 
 import './index.css'
 
 const root = document.querySelector('#root')
 
 ReactDOM.render(
-  <App />,
+  <CounterApp value={10} />,
   root
 )
