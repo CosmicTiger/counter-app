@@ -7,6 +7,6 @@ import './index.css'
 const root = document.querySelector('#root')
 
 ReactDOM.render(
-  <CounterApp value={10} />,
+  <CounterApp value={0} />,
   root
 )
